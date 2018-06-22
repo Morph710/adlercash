@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AdlerCash
+Comment=AdlerCash P2P Cryptocurrency
+Comment[fr]=AdlerCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AdlerCash, eşten eşe kriptografik sanal para birimi
+Exec=AdlerCash-qt %u
+Terminal=false
+Type=Application
+Icon=AdlerCash128
+MimeType=x-scheme-handler/AdlerCash;
+Categories=Office;Finance;

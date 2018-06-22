@@ -1,0 +1,26 @@
+# /etc/conf.d/AdlerCashd: config file for /etc/init.d/AdlerCashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/AdlerCash/AdlerCash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/AdlerCashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/AdlerCashd.pid"
+
+# Where to write AdlerCashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/AdlerCashd"
+
+# User and group to own AdlerCashd process
+#BITCOIND_USER="AdlerCash"
+#BITCOIND_GROUP="AdlerCash"
+
+# Path to AdlerCashd executable
+#BITCOIND_BIN="/usr/bin/AdlerCashd"
+
+# Nice value to run AdlerCashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
